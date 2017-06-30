@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script type="text/javascript" src="public/js/functions.js"></script>
+        <link rel="stylesheet" href="public/css/style.css" />
+    </head>
+    <body>
+        <div id="container">
+            <h1>Beräkna din lön efter skatt</h1>
+            <p>Ange nedanför hur mycket du tjänar efter skatt. Och ange vart du är bosatt i Sverige, samt om du är med kyrkan eller inte.</p>
+
+            <form class="inputField">
+
+                <div class="cont_brutto">
+                    <p><label>Lön före skatt</label></p>
+                    <p><input type="text" id="sek" name="brutto" placeholder="SEK"> kr/mån</p>
+                    <p><input type="checkbox" id="i_kyrkan" name="kyrka"> Är medlem i kyrkan</p>
+                </div>
+
+                <div class="län">
+                    <p>Välj kommun</p>
+                    <select>
+                        <option id="optOne" value="" disabled="disabled" selected="selected"></option>
+                        <option value="0.3338">Ale kommun</option>
+                        <option value="0.3383">Dalarnas län	</option>
+                        <option value="0.3360">Gotlands län	</option>
+                        <option value="0.3354">Gävleborgs län	</option>
+                        <option value="0.3178">Hallands län	</option>
+                        <option value=".3442">Jämtlands län	</option>
+                        <option value="0.3290">Jönköpings län	</option>
+                        <option value="0.3315">Kalmar län	</option>
+                        <option value="0.3234">Kronobergs län	</option>
+                        <option value="0.3391">Norrbottens län	</option>
+                        <option value="0.3130">Skåne län	</option>
+                        <option value="0.3057">Stockholms län	</option>
+                        <option value="0.3212">Sverigemedel	</option>
+                        <option value="0.3272">Södermanlands län	</option>
+                        <option value="0.3298">Uppsala län	</option>
+                        <option value="0.3324">Värmlands län	</option>
+                        <option value="0.3421">Västerbottens län	</option>
+                        <option value="0.3404">Västernorrlands län	</option>
+                        <option value="0.3201">Västmanlands län	</option>
+                        <option value="0.3278">Västra Götalands län	</option>
+                        <option value="0.3321">Örebro län	</option>
+                        <option value="0.3191">Östergötlands län</option>
+                    </select>
+                </div>
+
+                <div class="btn-beräkna">
+                    <button type="button" value="submit">Beräkna</button>
+                </div>
+
+            </form>
+
+        </div>
+    </body>
+</html>

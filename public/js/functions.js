@@ -1,0 +1,1 @@
+function test(t){console.log("Hej, mitt namn är "+t)}test("Lars");
